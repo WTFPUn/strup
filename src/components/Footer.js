@@ -5,9 +5,9 @@ import Link from 'next/link'
 
 function Footer() {
   return(
-    <div className="shadow-md h-auto w-full  xl:w-full  flex flex-col items-center font-semibold text-base xl:text-base bg-black mt-auto">
-      <div className="flex flex-row py-2 xl:w-full border-b-2 justify-center">
-        <div className="grid grid-cols-3 gap-x-6 text-white font-normal">
+    <div className="z-1 shadow-md h-auto big-device:w-full flex flex-col items-center big-device:font-semibold mobile:text-xs big-device:text-base bg-black mt-auto">
+      <div className="flex flex-row py-2 xl:w-full border-b-2 w-full justify-center">
+        <div className="grid grid-cols-3 big-device:gap-x-6 text-white big-device:font-normal mobile:text-xss">
           <Link href="/about">
             <a>about us</a>
           </Link>
@@ -39,9 +39,9 @@ function Footer() {
           <InstragramIcon/>
         </div>        
       </div>
-      <div className="flex flex-row my-2">
+      <div className="flex flex-row my-2 mobile:text-xss big-device:font-medium">
         <div className="text-gray-400 mx-5">Copyright © 2021 www.inmymind.com, All rights reserved</div>
-        <div className="flex flex-row text-white font-medium">
+        <div className="flex flex-row text-white">
           <div className="px-5">Term of Use</div>
           <div className="border-l-2 px-5">Privacy Policy</div>
         </div>
