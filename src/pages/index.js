@@ -4,10 +4,15 @@ import IndexBanner from '../components/IndexBanner'
 
 export default function Home() {
   return (
-    <div className="w-full mobile:w-screen medium-tablet:w-screen  big-device:w-full">
+    <div className="w-full h- mobile:w-screen medium-tablet:w-screen  big-device:w-full relative ">
+      <div className="sticky top-0 z-50">
       <Header/>
-      <IndexBanner/>
-      <Footer/>
+      </div>
+      <div className="absolute top-0 w-screen">
+       <IndexBanner/>
+        <Footer/> 
+      </div>
+      
     </div>
   )
 }

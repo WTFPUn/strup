@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import SliderBanner from "./SliderBanner";
 
 function IndexBanner() {
   return (
     <div className="h-screen w-full relative items-center">
-      <div className="h-2/3 big-device:h-screen w-full relative">
-        <Image src={"/homeimage/mainbg.png"} layout="fill" alt="mainbg" />
+      <div className="h-5/6 big-device:h-full w-full relative">
+        <SliderBanner/>
         <div className="absolute left-1/2 top-1/2 w-max  transform -translate-x-1/2 -translate-y-1/2 flex flex-col font-body place-items-center">
           <div className="text-left text-noiceyellow medium-tablet:text-7xl big-device:text-8xl big-device:font-base mobile:mb-2 mb-16">
             {"Self Learning"}

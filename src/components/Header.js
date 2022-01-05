@@ -6,7 +6,7 @@ import LogoIcon from "./icons/LogoIcon";
 
 export default function Header() {
   return( 
-    <div className="shadow-md h-24 w-auto big-device::w-full sticky top-0 z-50 flex flex-row items-center font-semibold text-xl xl:text-xl bg-white " >
+    <div className="shadow-md h-24 w-auto big-device:w-screen sticky top-0 z-50 flex flex-row items-center font-semibold text-xl xl:text-xl bg-white" >
         <div className="big-device:mx-2">
          <LogoIcon/>
         </div>
