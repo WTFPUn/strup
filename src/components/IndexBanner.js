@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import SliderBanner from "./SliderBanner";
+import SliderBanner from "./home/SliderBanner";
 
 function IndexBanner() {
   return (

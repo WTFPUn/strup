@@ -11,7 +11,10 @@ module.exports = {
       colors: {
         noiceyellow: '#CEB250',
         buttonblue: '#0080FF'
-      }
+      },
+      animation: {
+        fade: 'fadeOut 5s ease-in-out',
+      },
     },
     screens: {
       'mobile': {'min': '320px', 'max': '767px'},
