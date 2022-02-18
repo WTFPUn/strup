@@ -1,9 +1,8 @@
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import OSRank from '../components/home/OSRank'
-import TrendCard from '../components/home/TrendCard'
 import TrendCardTab from '../components/home/TrendCardTab'
-import WhatOutSource from '../components/home/whatOutSource'
+import WhatOutSource from '../components/home/WhatOutSource'
 import IndexBanner from '../components/IndexBanner'
 
 export default function Home() {
