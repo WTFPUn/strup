@@ -26,12 +26,14 @@ function Footer() {
           <Link href="/UHOI">
             <a>UHOI</a>
           </Link>
-          <Link href="report">
+          {/* <Link href="report">
             <a>report problem</a>
-          </Link>
-          <Link href="extraclass">
+          </Link> */}
+          <div>report</div>
+          {/* <Link href="extraclass">
             <a>extra class</a>
-          </Link>
+          </Link> */}
+          <div>extraclass</div>
         </div>
         <div className="flex flex-row">
           <FacebookIcon/>
