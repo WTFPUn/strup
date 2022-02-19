@@ -3,6 +3,7 @@ import Image from 'next/image'
 import ChatIcon from "./icons/ChatIcon";
 import NotiIcon from "./icons/NotiIcon";
 import LogoIcon from "./icons/LogoIcon";
+import PersonIcon from "./icons/PersonIcon";
 
 export default function Header() {
   return( 
@@ -18,7 +19,8 @@ export default function Header() {
         <div className="gap-x-3 items-center mx-3 big-device:ml-auto flex flex-row">
           <SearchBar/>
           <ChatIcon/>
-          <NotiIcon/>               
+          <NotiIcon/>
+          <PersonIcon/>               
         </div>
     </header>  
   );
