@@ -7,8 +7,8 @@ import PersonIcon from "./icons/PersonIcon";
 
 export default function Header() {
   return( 
-    <header className="shadow-md h-24 w-auto sticky z-50 flex flex-row items-center font-semibold text-xl xl:text-xl bg-white" >
-        <div className="big-device:mx-2">
+    <header className="shadow-md h-24 w-auto sticky z-50 flex flex-row items-center font-medium text-xl   bg-white px-32" >
+        <div>
          <LogoIcon/>
         </div>
         <div className="mobile:hidden medium-tablet:hidden mx-3 big-device:mx-5">Self Learning</div>

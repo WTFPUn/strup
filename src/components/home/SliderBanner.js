@@ -35,8 +35,8 @@ export default function SliderBanner() {
   return (
   <div ref={slideRef} className="bg-red-500 w-full h-full aspect-video relative">
     <Image className="animate-fade" src={imgSlider[currentIndex]} layout="fill" alt="mainbg" />
-    <button className="text-3xl text-white absolute left-0 top-1/2" onClick={handlePrevClick}>{`<`}</button>
-    <button className="text-3xl text-white absolute right-0 top-1/2" onClick={handleNextClick}>{`>`}</button>
+    <button className="text-3xl text-white absolute left-4 top-1/2" onClick={handlePrevClick}>{`<`}</button>
+    <button className="text-3xl text-white absolute right-8 top-1/2" onClick={handleNextClick}>{`>`}</button>
   </div>
   );
 }
