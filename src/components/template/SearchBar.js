@@ -1,10 +1,10 @@
 import { useState } from "react";
-import MagnifyingGlassIcon from "./icons/MagnifyingGlassIcon";
+import MagnifyingGlassIcon from "../icons/MagnifyingGlassIcon";
 
-export default function SearchBar(){
+export default function SearchBar() {
   const [textSearch, setTextSearch] = useState("");
     return(
-      <div className="mobile:hidden medium-tablet:hidden">
+      <div className=" cursor-help mobile:hidden medium-tablet:hidden">
         <form>
           <div className="rounded-full bg-gray-300 flex flex-row items-center shadow-sm">
             <div className=" mx-1 xl:mx-3">

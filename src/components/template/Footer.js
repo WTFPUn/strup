@@ -1,6 +1,6 @@
-import FacebookIcon from "./icons/FacebookIcon";
-import InstragramIcon from "./icons/InstragramIcon";
-import TwitterIcon from "./icons/TwitterIcon";
+import FacebookIcon from "../icons/FacebookIcon";
+import InstragramIcon from "../icons/InstragramIcon";
+import TwitterIcon from "../icons/TwitterIcon";
 import Link from 'next/link'
 
 function Footer() {
