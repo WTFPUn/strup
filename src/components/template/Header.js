@@ -7,6 +7,7 @@ import { Fragment } from 'react'
 import { Menu, Transition} from "@headlessui/react";
 import PopUpBox from "./PopUpBox";
 import GearIcon from "../icons/GearIcon";
+import LoginBox from "./LoginBox";
 
 export default function Header() {
   const notiOut = () => {
@@ -82,7 +83,7 @@ export default function Header() {
           </Menu.Items>
           </Transition>
         </Menu>
-        <PersonIcon />
+        <LoginBox login={1}/>
       </div>
     </header>
   );
